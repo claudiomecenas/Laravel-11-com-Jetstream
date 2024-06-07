@@ -1,23 +1,12 @@
 
 ### Passo a passo
-Clone Repositório
-```sh
-git clone [https://github.com/especializati/setup-docker-laravel.git](https://github.com/claudiomecenas/Laravel-11-com-Jetstream)
-```
-
-Clone os Arquivos do Laravel
-```sh
-git clone https://github.com/laravel/laravel.git app-laravel
-```
 
 
-Copie os arquivos docker-compose.yml, Dockerfile e o diretório docker/ para o seu projeto
+Clone 
 ```sh
-cp -rf setup-docker-laravel/* app-laravel/
+git clone main git@github.com:claudiomecenas/Laravel-11-com-Jetstream.git app-laravel
 ```
-```sh
-cd app-laravel/
-```
+
 
 
 Crie o Arquivo .env
@@ -28,7 +17,7 @@ cp .env.example .env
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME="Especializa Ti"
+APP_NAME="AppName"
 APP_URL=http://localhost:8989
 
 DB_CONNECTION=mysql
