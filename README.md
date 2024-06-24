@@ -4,7 +4,7 @@
 
 Clone 
 ```sh
-git clone main git@github.com:claudiomecenas/Laravel-11-com-Jetstream.git app-laravel
+git clone -b main git@github.com:claudiomecenas/Laravel-11-com-Jetstream.git app-laravel
 ```
 
 
